@@ -49,19 +49,18 @@ There is **no single best answer**.
 ##  Project Structure
 
 tech-stack-referee/
-├── .kiro/
-│ └── workflow.yaml
-├── referee/
-│ ├── compare.py
-│ └── explain.py
-├── web/
-│ ├── index.html
-│ ├── script.js
-│ └── styles.css
-├── app.py
-├── README.md
-└── docs/
-└── blog_draft.md
+.kiro/ workflow.yaml
+referee/
+ compare.py
+ explain.py
+web/
+ index.html
+ script.js
+ styles.css
+app.py
+README.md
+docs/
+ blog_draft.md
 
 
 ---
