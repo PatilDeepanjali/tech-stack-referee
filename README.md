@@ -98,9 +98,9 @@ Participant – Kiro Heroes Challenge (Week 6)
 
 Links
 
-Blog: (Add after publishing)
+Blog: https://builder.aws.com/content/386vULrHBsHjzk4PK0VmxA5UwLd/from-data-to-decisions-creating-a-tech-stack-referee-using-kiro-agent-steering
 
-GitHub: (This repository)
+GitHub: https://github.com/PatilDeepanjali/tech-stack-referee
 
 
 ### Acknowledgements
