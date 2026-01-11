@@ -1,0 +1,30 @@
+name: tech-stack-referee
+description: >
+  A decision-support agent that compares tech stacks and explains trade-offs
+  instead of giving a single best answer.
+
+steps:
+  - name: interpret_user_constraints
+    description: >
+      Understand user background, time availability, project goal, and budget
+      from the web form inputs.
+
+  - name: evaluate_mern_stack
+    description: >
+      Score the MERN stack against the user's constraints and record reasons
+      that support or limit its suitability.
+
+  - name: evaluate_django_stack
+    description: >
+      Score the Django + PostgreSQL stack against the same constraints and
+      record its strengths and trade-offs.
+
+  - name: compare_tradeoffs
+    description: >
+      Compare both stacks side by side, highlighting where one outperforms
+      the other based on context.
+
+  - name: referee_verdict
+    description: >
+      Generate a balanced, human-readable verdict that helps the user choose
+      without enforcing a single correct answer.

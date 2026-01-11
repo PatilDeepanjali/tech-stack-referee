@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title><p><em>No “best” stack. Only the best fit.</em></p>
+</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<h1>Tech Stack Referee</h1>
+<p>Answer a few questions and get a reasoned comparison instead of a single answer.</p>
+
+<form id="refereeForm">
+    <label>
+        Programming Background:
+        <select name="background">
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="beginner">Beginner</option>
+        </select>
+    </label>
+
+    <label>
+        Time Available:
+        <select name="time">
+            <option value="short">Less than 1 month</option>
+            <option value="medium">1–3 months</option>
+            <option value="long">More than 3 months</option>
+        </select>
+    </label>
+
+    <label>
+        Project Goal:
+        <select name="goal">
+            <option value="college">College Project</option>
+            <option value="mvp">Startup MVP</option>
+            <option value="backend">Learn Backend Deeply</option>
+        </select>
+    </label>
+
+    <label>
+        Budget:
+        <select name="budget">
+            <option value="low">Very Low / Free</option>
+            <option value="medium">Moderate</option>
+        </select>
+    </label>
+
+    <button type="submit">Ask the Referee ⚖️</button>
+</form>
+
+<div id="result">
+
+    
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
